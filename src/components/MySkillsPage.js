@@ -147,7 +147,7 @@ Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase, MongoDB, Node.
 <Description>
 <strong>Tools</strong>
 <p>
-VScode, Github, Codepen etc.
+VScode, Git, Github, Codepen etc.
 </p>
 </Description>
 
