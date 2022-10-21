@@ -231,22 +231,6 @@ const Main = () => {
                 </motion.h2>
             </BLOG>
 
-            {/* <PROJECTS to="/project">
-                <motion.h2
-                initial={{
-                    y:-200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                whileHover={{scale: 1.1}}
-                whileTap={{scale: 0.9}}
-                >
-                    Project
-                </motion.h2>
-            </PROJECTS> */}
 
             <WORK to="/work" click={+click}>
                 <motion.h2
