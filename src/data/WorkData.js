@@ -27,13 +27,13 @@ export const Work = [
         tags:["React","API","Sass","Node.js", "MongoDB","Tailwind CSS"],
         
         demo:"#",
-        github:"https://github.com/codebucks27/devto-clone"
+        github:"https://github.com/ravikr126/VidChat"
     },
     {
         id:4,
         name:"Basic Youtube clone",
         description:"A youtube clone using Google youtube API.",
-        tags:["react","styledComponents","react-router,API"],
+        tags:["React","StyledComponents","React-router","API"],
         
         demo:"https://ravikr126.github.io/video-player/",
         github:"https://github.com/ravikr126/video-player"

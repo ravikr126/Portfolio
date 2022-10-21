@@ -2,7 +2,7 @@
 
 export const lightTheme = {
 
-    body:"#00FFFF",
+    body:"#00FFC6",
     text:"#000000",
     fontFamily:"'Source Sans Pro', sans-serif",
     bodyRgba : "252, 246, 244",
