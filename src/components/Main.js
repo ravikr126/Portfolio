@@ -218,7 +218,7 @@ const Main = () => {
             </Contact>
 
             
-
+            
             <BLOG to="/blog">
                 <motion.h2
                 initial={{
