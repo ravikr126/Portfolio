@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
+import img from "../assets/Images/books.jpg"
 import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons  from '../subComponents/SocialIcons'
 import PowerButton  from '../subComponents/PowerButton'

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import styled, { ThemeProvider } from 'styled-components'
-import {DarkTheme} from './Themes';
+import {lightTheme} from './Themes';
 import {motion} from 'framer-motion';
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -11,7 +11,7 @@ import { Work } from "../data/WorkData";
 import Card from '../subComponents/Card';
 import { YinYang } from './AllSvgs';
 import BigTitlte from '../subComponents/BigTitlte';
-
+import ParticleComponent from '../subComponents/ParticleComponent';
 const Box = styled.div`
 background-color: ${props => props.theme.body};
 
@@ -87,13 +87,13 @@ const WorkPage = () => {
 
 
     return (
-        <ThemeProvider theme={DarkTheme}>
+        <ThemeProvider theme={lightTheme}>
 <Box>
 
-<LogoComponent theme='dark'/>
-<SocialIcons theme='dark'/>
+<LogoComponent theme='light'/>
+<SocialIcons theme='light'/>
 <PowerButton />
-
+<ParticleComponent theme='light' />
      <Main ref={ref}   variants={container} initial='hidden' animate='show'  >
          {
             Work.map( d => 
@@ -102,7 +102,7 @@ const WorkPage = () => {
          }
      </Main>
 <Rotate ref={yinyang}>
-    <YinYang width={80} height={80} fill={DarkTheme.text} />
+    <YinYang width={80} height={80} fill={lightTheme.text} />
 </Rotate>
 
 <BigTitlte text="WORK" top='10%' right="20%" />

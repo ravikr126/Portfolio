@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import React, { useState } from 'react'
+
 import { NavLink } from 'react-router-dom'
 import styled, { keyframes } from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
@@ -7,6 +8,7 @@ import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
+import ResumePdf from "../assets/resume/cv_ravi.pdf";
 ;
 
 
@@ -28,6 +30,28 @@ const Container = styled.div`
 padding: 2rem;
 `
 
+const Resume = styled(motion.a)`
+  color: ${(props) => props.theme.text};
+  position: absolute;
+  top: 2rem;
+  right: 15rem;
+  text-decoration: none;
+  z-index: 3;
+  h3 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
+    top: 2rem;
+    right: 10em;
+    h3 {
+      font-weight: ${(props) => (props.click ? "400" : "600")};
+    }
+  }
+`;
+
 const Contact = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
@@ -35,27 +59,23 @@ top: 2rem;
 right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
+@media (max-width: 768px) {
+    h3 {
+      font-size: 20px;
+    }
 `
+
+
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
-top: 25%;
+top: 50%;
 right: calc(1rem + 2vw);
 transform: rotate(90deg) translate(-25%, -25%);
 text-decoration: none;
 z-index:1;
 `
 
-
-const PROJECTS = styled(NavLink)`
-color: ${props => props.theme.text};
-position: absolute;
-top: 75%;
-right: calc(1rem + 2vw);
-transform: rotate(90deg) translate(-75%, -75%);
-text-decoration: none;
-z-index:1;
-`
 
 
 const WORK = styled(NavLink)`
@@ -158,6 +178,22 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
+            <Resume
+          initial={{ y: -100 }}
+          animate={{
+            y: 0,
+            transition: { type: "spring", duration: 1.5, delay: 0.5 },
+          }}
+          whileHover={{ scale: 1.2 }}
+          whileTap={{ scale: 0.9 }}
+          href={ResumePdf}
+          target="_blank"
+          download
+          click={click}
+        >
+          <h3>Resume.</h3>
+        </Resume>
+
             <Contact target="_blank" to={{pathname:"mailto:ravi14577@gmail.com"}}>
                 <motion.h2
                 initial={{
@@ -176,6 +212,8 @@ const Main = () => {
                 </motion.h2>
             </Contact>
 
+           
+
             <BLOG to="/blog">
                 <motion.h2
                 initial={{
@@ -193,7 +231,7 @@ const Main = () => {
                 </motion.h2>
             </BLOG>
 
-            <PROJECTS to="/project">
+            {/* <PROJECTS to="/project">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -208,7 +246,7 @@ const Main = () => {
                 >
                     Project
                 </motion.h2>
-            </PROJECTS>
+            </PROJECTS> */}
 
             <WORK to="/work" click={+click}>
                 <motion.h2
