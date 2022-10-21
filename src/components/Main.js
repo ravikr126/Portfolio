@@ -9,6 +9,7 @@ import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
 import ResumePdf from "../assets/resume/cv_ravi.pdf";
+
 ;
 
 
@@ -217,8 +218,6 @@ const Main = () => {
                 </motion.h2>
             </Contact>
 
-            
-            
             <BLOG to="/blog">
                 <motion.h2
                 initial={{
