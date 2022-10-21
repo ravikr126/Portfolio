@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import styled, { keyframes } from 'styled-components'
 
-import music from "../assets/audio/u-said-it-v13-1167.mp3"
+import music from "../assets/audio/flute.mp3"
 import { ReactComponent as Note } from "../assets/svg/musical-note-svgrepo-com.svg";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";

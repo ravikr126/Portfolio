@@ -1,15 +1,14 @@
 import React from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Themes';
-import {lightTheme} from './Themes';
+
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
-import astronaut from '../assets/Images/spaceman.png'
-
+import astronaut from '../assets/Images/img.png'
 const Box = styled.div`
 background-color: ${props => props.theme.body};
 width: 100vw;
@@ -25,13 +24,13 @@ const float = keyframes`
 `
 const Spaceman = styled.div`
 position: absolute;
-top: 10%;
-right: 5%;
-width: 20vw;
+top: 20%;
+right: 7%;
+width: 25vw;
 animation: ${float} 4s ease infinite;
 img{
-    width: 100%;
-    height: auto;
+    width: 120%;
+    height: 300%;
 }
 `
 const Main =  styled.div`

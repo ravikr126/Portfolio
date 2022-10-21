@@ -1,12 +1,12 @@
-import React from 'react'
-import styled, { ThemeProvider } from 'styled-components'
-import {lightTheme} from './Themes';
-import { Design, Develope} from './AllSvgs';
-import LogoComponent from '../subComponents/LogoComponent';
-import SocialIcons from '../subComponents/SocialIcons';
-import PowerButton from '../subComponents/PowerButton';
-import ParticleComponent from '../subComponents/ParticleComponent';
-import BigTitle from '../subComponents/BigTitlte'
+import { motion } from "framer-motion";
+import React, { useState, useEffect } from "react";
+
+import styled from "styled-components";
+import BigTitle from "../subComponents/BigTitle";
+import LogoComponent from "../subComponents/LogoComponent";
+import ParticleComponent from "../subComponents/ParticleComponent";
+import PowerButton from "../subComponents/PowerButton";
+import SocialIcons from "../subComponents/SocialIcons";
 
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};

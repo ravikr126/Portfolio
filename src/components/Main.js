@@ -57,12 +57,17 @@ color: ${props => props.theme.text};
 position: absolute;
 top: 2rem;
 right: calc(1rem + 2vw);
-text-decoration: none;
 z-index:1;
+text-decoration: none;
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
 @media (max-width: 768px) {
-    h3 {
-      font-size: 20px;
-    }
+  h3 {
+    font-size: 20px;
+  }
+}
 `
 
 
@@ -212,7 +217,24 @@ const Main = () => {
                 </motion.h2>
             </Contact>
 
-           
+            
+            {/* <Contact to="/contact">
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 1.5, delay:1}
+                }}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
+                
+                >
+                    Say hi 🖐..
+                </motion.h2>
+            </Contact> */}
 
             <BLOG to="/blog">
                 <motion.h2
