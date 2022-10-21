@@ -56,7 +56,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.facebook.com/ravi14577"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.facebook.com/profile.php?id=100045570251729"}}>
                     <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
