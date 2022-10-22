@@ -7,7 +7,7 @@ export const Work = [
         description:"It is build on top of the React JS, with styledComponents.",
         tags:["React","Html","styledComponents"],
         
-        demo:"#",
+        demo:"theravikumar.netlify.app",
         github:"https://github.com/ravikr126/Portfolio"
     },
     {
@@ -16,7 +16,7 @@ export const Work = [
         description:"A Food ordering website build in Javascript and PHP. With searching and filtering functionalities.",
         tags:["Javascript","PHP"],
         
-        demo:"#",
+        demo:"https://github.com/ravikr126/food_ordering",
         github:"https://github.com/ravikr126/food_ordering"
         
     },
@@ -27,7 +27,7 @@ export const Work = [
         tags:["React","API","Sass","Node.js", "MongoDB","Tailwind CSS"],
         
         demo:"#",
-        github:"https://github.com/ravikr126/VidChat"
+        github:"#"
     },
     {
         id:4,
