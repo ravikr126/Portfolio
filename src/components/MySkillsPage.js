@@ -102,16 +102,16 @@ I love to code, Keep it clean, minimal and simple.
 <strong>Coding Platforms</strong>
 <ul>
     <li>
-    <a href="https://leetcode.com/night_codex/">Leetcode</a>
+    <a href="https://leetcode.com/night_codex/" target="_blank" >Leetcode</a>
     </li>
     <li>
-    <a href="https://www.codechef.com/users/ravikr126">Codechef</a>
+    <a href="https://www.codechef.com/users/ravikr126" target="_blank" >Codechef</a>
     </li>
     <li>
-    <a href="https://auth.geeksforgeeks.org/user/ravikr126">GeeksforGeeks</a>
+    <a href="https://auth.geeksforgeeks.org/user/ravikr126" target="_blank" >GeeksforGeeks</a>
     </li>
     <li>
-    <a href=" https://codeforces.com/profile/ravikr">Codeforces</a>
+    <a href=" https://codeforces.com/profile/ravikr" target="_blank" >Codeforces</a>
     </li>
    
   
