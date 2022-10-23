@@ -104,7 +104,7 @@ const SocialIcons = ({ click }) => {
         initial={{ transform: "scale(0)" }}
         animate={{ scale: [0, 1.5, 1, 1] }}
         transition={{ type: "spring", duration: 1.5, delay: 1.2 }}
-        href="https://github.com/itsAbh15hek"
+        href="https://github.com/ravikr126"
         target="_blank"
         rel="noreferrer"
       >
@@ -114,7 +114,7 @@ const SocialIcons = ({ click }) => {
         initial={{ transform: "scale(0)" }}
         animate={{ scale: [0, 1.5, 1, 1] }}
         transition={{ type: "spring", duration: 1.5, delay: 1.4 }}
-        href="https://www.linkedin.com/in/itsabh15hek/"
+        href="https://www.linkedin.com/in/ravi-kumar-950747b4/"
         target="_blank"
         rel="noreferrer"
       >
