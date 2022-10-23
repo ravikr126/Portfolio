@@ -1,5 +1,5 @@
 
-All the required Text for this portfolio
+
 Fonts
 
 ----------------------------------------------
@@ -13,13 +13,16 @@ Fonts
 
 Skills
 ----------------------------------------------
-I love to code, Keep it clean, minimal and simple.
-I like to writing blogs and learn new technologies
-Web Development
+I love to create design which speaks, Keep it clean, minimal and simple.
+I LIKE TO DESIGN
+Web Design
+Mobile Apps
+TOOLS
+Figma
 
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
 SKILLS
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase, C++ ,Data Structures and Algorithms etc.
+Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
 
 TOOLS
 VScode, Github, Codepen etc.
@@ -29,9 +32,9 @@ VScode, Github, Codepen etc.
 About Text
 
 ----------------------------------------------
-I'm a full-stack developer located in India. I love to create simple yet beautiful websites with great user experience.
+I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
 
-I'm interested in the whole full-stack development (MERN) Like trying new things and building great projects. I'm an independent coder and blogger. I love to write blogs and read books.
+I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
 
 I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
 ----------------------------------------------
