@@ -1,4 +1,4 @@
-# Build a Stuning Portfolio with React.Js using Styled-Components and framer-motion for awesome Animations
+# Build a Stunning Portfolio with React.Js using Styled-Components and framer-motion for awesome Animations
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
