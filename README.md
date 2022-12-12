@@ -1,4 +1,4 @@
-# Build a Stunning Portfolio with React.Js using Styled-Components and framer-motion for awesme Animations
+# Build a Stunning Portfolio with ReactJs using Styled-Components and framer-motion for awesme Animations
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
