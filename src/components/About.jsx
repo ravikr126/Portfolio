@@ -87,7 +87,7 @@ const About = ({ setThemeDark, theme }) => {
       </Kunai>
       <Main>
         <p>
-        I'm a Competative coder and Full-stack developer . I love to code and make simple yet beautiful websites with great user experience.
+        I'm a Competative coder and Full-stack MERN stack developer . I love to code and make simple yet beautiful websites with great user experience.
         </p>
         <p>
         I'm interested in the open-source and full-stack development like trying new things and building great projects.I love to write blogs and read books.

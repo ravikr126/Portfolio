@@ -57,4 +57,16 @@ export const Projects = [
         imgSrc:"https://qph.cf2.quoracdn.net/main-qimg-790f8e59c632a7a157a077131a00ce7c-lq",
         link:"https://qr.ae/pvc4Ea"
     },
+
+    {
+        id:8,
+        name:"Applications and tools that make Developers more updated and advance",
+        tags:["Octotree","Feedly","Devbytes"],
+        date:"April 11, 2023 ",
+        imgSrc:"https://qph.cf2.quoracdn.net/main-qimg-790f8e59c632a7a157a077131a00ce7c-lq",
+        link:"https://ravikr126.hashnode.dev/applications-and-tools-that-make-developers-more-updated-and-advance"
+    },
+
+    
+
 ] 
